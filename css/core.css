@@ -3,3 +3,59 @@
   margin: 0;
   padding: 0;
 }
+
+
+body {
+    font-family: "Exo 2", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+h1 .image {
+    width: 180px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1 .image img {
+    max-width: 100%;
+}
+
+.count-down {
+    height: 100vh;
+    background-color: #E23744;
+    color: #F0F1F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.count-down .display-date {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.count-down .display-date div {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.count-down .display-date div span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.count-down .copyrights {
+    position: absolute;
+    bottom: 30px;
+}
